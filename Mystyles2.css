@@ -1,0 +1,36 @@
+nav {
+    background-color: hsla(121, 88%, 38%, 0.881);
+    color: #fff;
+    padding: 10px;
+}
+body{
+    background-color: beige;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+nav ul li a :hover {
+    text-decoration: underline;
+    color: #fff;
+}
+section {
+    padding: 20px;
+}
+p {
+    font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer {
+    background-color: rgb(203, 17, 33);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}

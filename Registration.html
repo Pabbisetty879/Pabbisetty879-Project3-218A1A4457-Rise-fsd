@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <style>
+            body {
+                background-color: rgb(13, 198, 35);
+            }
+        </style>
+        <title>Registration page</title>
+    </head>
+    <body style="padding-left: 500px; padding-top: 50px;">
+        <form action="login.html">
+            <h1>Registration Page</h1><hr><br>
+            User Name     : <input type="text" name="uname" placeholder="Username"><br>
+            Password      : <input type="password" name="pass" placeholder="password"><br>
+            Date of Birth : <input type="date" name="bname"><br>
+            Gender        :<br> <input type="radio" name="male" value="Male">Male<br>
+                       <input type="radio" name="female" value="female">Female<br>
+            Mobile number : <input type="tel" name="personal" pattern="[0-9]{10}" title="The ten digits number" ><br>
+            Membership    :<form><input type="number" name="cost" min="200" max="2000" step="100" value="100">Cost of membership</form> <br>
+            Email         :<input type="email" name="office" id="myofficeid"> <br>
+            Branch        : <select name="branch"><br>
+            <option value="CSE">CSE</option>
+            <option value="CSE-DS">CSE-DS</option>
+            <option value="CSE-AIML">CSE-AIML</option>
+            <option value="MECH">MECH</option>
+            <option value="CIVIL">CIVIL</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+            </select><br>
+            Language:<br>
+            <input type="checkbox" name="telugu">Telugu<br>
+            <input type="checkbox" name="English">English<br>
+            <input type="checkbox" name="Hindi">Hindi<br>
+            Address:<br>
+            <textarea name="sudharshan" cols="50" rows="10">address...</textarea><br><br>
+            <form action="./login.html">
+            <input type="submit">
+            </form>
+        </form>
+    </body>
+</html>
